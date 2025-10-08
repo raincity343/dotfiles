@@ -1,0 +1,12 @@
+export PATH="$PATH:~/apps"
+
+alias new="cp -r ~/template"
+alias diff="diff --color=auto"
+alias gdb="gdb -q"
+
+submit() {
+  local name=$(basename $PWD)
+  mkdir -p ~/CJ-ckx/$name
+  cp sol.cpp ~/CJ-ckx/$name.cpp
+  cp sol.cpp ~/CJ-ckx/$name/$name.cpp
+}
