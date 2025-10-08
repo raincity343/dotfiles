@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "f9",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.focus",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "g++ -std=c++14 -O2 -Wall -Wfatal-errors -o ${fileBasenameNoExtension} ${fileBasename}\n"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "key": "shift+f9",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.focus",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "g++ -g -fsanitize=address,undefined -o ${fileBasenameNoExtension} ${fileBasename}\n"
+          }
+        }
+      ]
+    }
+  }
+]

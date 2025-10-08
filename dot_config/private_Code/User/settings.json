@@ -1,0 +1,18 @@
+{
+  "chat.disableAIFeatures": true,
+  "workbench.colorTheme": "Default Light Modern",
+  "window.controlsStyle": "custom",
+  "window.dialogStyle": "custom",
+  "editor.fontFamily": "'Liberation Mono'",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "extensions.verifySignature": false,
+  "security.workspace.trust.enabled": false,
+  "extensions.ignoreRecommendations": true
+}
