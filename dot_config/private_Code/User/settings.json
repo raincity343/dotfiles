@@ -12,6 +12,7 @@
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
+  "git.autofetch": true,
   "extensions.verifySignature": false,
   "security.workspace.trust.enabled": false,
   "extensions.ignoreRecommendations": true
