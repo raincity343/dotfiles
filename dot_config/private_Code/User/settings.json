@@ -1,5 +1,6 @@
 {
   "chat.disableAIFeatures": true,
+  "telemetry.telemetryLevel": "off",
   "workbench.colorTheme": "Default Light Modern",
   "window.controlsStyle": "custom",
   "window.dialogStyle": "custom",
