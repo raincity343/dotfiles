@@ -16,5 +16,6 @@
   "git.autofetch": true,
   "extensions.verifySignature": false,
   "security.workspace.trust.enabled": false,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
