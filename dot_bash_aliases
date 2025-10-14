@@ -2,8 +2,8 @@ export PATH="$PATH:~/apps"
 alias cz="chezmoi"
 
 alias new="cp -r ~/template"
-alias diff="diff --color=auto"
 alias gdb="gdb -q"
+alias diff="diff --color=auto"
 
 submit() {
   local name=$(basename $PWD)
