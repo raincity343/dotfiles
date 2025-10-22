@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
-for i in {1..100000}; do
+trap "notify-send WA" ERR
+for ((i = 1;; ++i)); do
   echo $i
   ./gen > in
-  ./sol < in > out
   ./std < in > ans
-  diff -Zq out ans
+  ./run
 done

@@ -1,7 +1,4 @@
 #!/bin/bash
 set -e
-for i in {1..100000}; do
-  echo $i
-  ./sol < in$i > out$i
-  diff -Zq out$i ans$i
-done
+./sol < in$1 > out$1
+diff --color=auto -Z out$1 ans$1

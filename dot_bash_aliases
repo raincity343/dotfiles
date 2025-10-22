@@ -3,7 +3,6 @@ alias cz="chezmoi"
 
 alias new="cp -r ~/template"
 alias gdb="gdb -q"
-alias diff="diff --color=auto"
 
 submit() {
   local name=$(basename $PWD)
