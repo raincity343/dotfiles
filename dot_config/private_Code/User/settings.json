@@ -11,7 +11,6 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
   "terminal.integrated.stickyScroll.enabled": false,
-  "editor.minimap.enabled": false,
   "git.autofetch": true,
   "extensions.verifySignature": false,
   "security.workspace.trust.enabled": false,
