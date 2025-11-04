@@ -2,32 +2,16 @@
 [
   {
     "key": "f9",
-    "command": "runCommands",
+    "command": "workbench.action.terminal.sendSequence",
     "args": {
-      "commands": [
-        "workbench.action.terminal.focus",
-        {
-          "command": "workbench.action.terminal.sendSequence",
-          "args": {
-            "text": "g++ -std=c++14 -O2 -Wall -Wfatal-errors -o ${fileBasenameNoExtension} ${fileBasename}\n"
-          }
-        }
-      ]
+      "text": "g++ -std=c++14 -O2 -Wall -Wfatal-errors -static -o ${fileBasenameNoExtension} ${fileBasename}\n"
     }
   },
   {
     "key": "shift+f9",
-    "command": "runCommands",
+    "command": "workbench.action.terminal.sendSequence",
     "args": {
-      "commands": [
-        "workbench.action.terminal.focus",
-        {
-          "command": "workbench.action.terminal.sendSequence",
-          "args": {
-            "text": "g++ -g -fsanitize=address,undefined -o ${fileBasenameNoExtension} ${fileBasename}\n"
-          }
-        }
-      ]
+      "text": "g++ -g -fsanitize=address,undefined -o ${fileBasenameNoExtension} ${fileBasename}\n"
     }
   }
 ]
