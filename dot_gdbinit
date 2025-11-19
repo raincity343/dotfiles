@@ -1,5 +1,0 @@
-set confirm off
-set max-value-size unlimited
-set print array
-set print array-indexes
-set print pretty
