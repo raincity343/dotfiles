@@ -1,4 +1,3 @@
-#!/bin/bash
 set -e
 trap "notify-send WA" ERR
 for ((i = 1;; ++i)); do

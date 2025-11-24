@@ -1,4 +1,3 @@
-#!/bin/bash
 set -e
 ./sol < in$1 > out$1
 diff --color=auto -Z out$1 ans$1
