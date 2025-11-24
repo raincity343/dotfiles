@@ -4,14 +4,14 @@
     "key": "f9",
     "command": "workbench.action.terminal.sendSequence",
     "args": {
-      "text": "g++ -std=c++14 -O2 -Wall -Wfatal-errors -static -o ${fileBasenameNoExtension} ${fileBasename}\n"
+      "text": "cd ${fileDirname} && g++ -std=c++14 -O2 -Wall -Wfatal-errors -static -o ${fileBasenameNoExtension} ${fileBasename}\n"
     }
   },
   {
     "key": "shift+f9",
     "command": "workbench.action.terminal.sendSequence",
     "args": {
-      "text": "g++ -g -fsanitize=address,undefined -o ${fileBasenameNoExtension} ${fileBasename}\n"
+      "text": "cd ${fileDirname} && g++ -g -fsanitize=address,undefined -o ${fileBasenameNoExtension} ${fileBasename}\n"
     }
   }
 ]
