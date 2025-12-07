@@ -1,18 +1,25 @@
 {
-  "chat.disableAIFeatures": true,
-  "telemetry.telemetryLevel": "off",
-  "workbench.colorTheme": "Default Light Modern",
+  // 界面设置
   "window.controlsStyle": "custom",
   "window.dialogStyle": "custom",
+  "workbench.colorTheme": "Default Light Modern",
+  // 编辑器设置
   "editor.fontFamily": "'Liberation Mono'",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
+  // 终端设置
   "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  // Git 设置
   "git.autofetch": true,
+  // 扩展与安全设置
+  "extensions.ignoreRecommendations": true,
   "extensions.verifySignature": false,
   "security.workspace.trust.enabled": false,
-  "extensions.ignoreRecommendations": true,
-  "terminal.integrated.enableMultiLinePasteWarning": "never"
+  // AI 与隐私设置
+  "chat.disableAIFeatures": true,
+  "claudeCode.preferredLocation": "panel",
+  "telemetry.telemetryLevel": "off",
 }
