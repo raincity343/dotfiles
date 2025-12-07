@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ ! -f ~/.config/chezmoi/key.txt ]]; then
+  mkdir -p ~/.config/chezmoi
+  chezmoi age decrypt --passphrase --output ~/.config/chezmoi/key.txt {{.chezmoi.sourceDir}}/key.txt.age
+  chmod 600 ~/.config/chezmoi/key.txt
+fi
