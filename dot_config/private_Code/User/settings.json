@@ -14,12 +14,16 @@
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   // Git 设置
   "git.autofetch": true,
+  // CPH 设置
+  "cph-ng.compilation.cppArgs": "-std=c++14 -O2 -Wall -Wfatal-errors -static",
+  "cph-ng.problem.templateFile": "${home}/template.cpp",
+  "cph-ng.runner.useRunner": true,
+  "cph-ng.runner.unlimitedStack": true,
   // 扩展与安全设置
   "extensions.ignoreRecommendations": true,
   "extensions.verifySignature": false,
   "security.workspace.trust.enabled": false,
   // AI 与隐私设置
   "chat.disableAIFeatures": true,
-  "claudeCode.preferredLocation": "panel",
-  "telemetry.telemetryLevel": "off",
+  "telemetry.telemetryLevel": "off"
 }

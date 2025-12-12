@@ -1,8 +1,0 @@
-set -e
-trap "notify-send WA" ERR
-for ((i = 1;; ++i)); do
-  echo $i
-  ./gen > in
-  ./std < in > ans
-  ./run
-done

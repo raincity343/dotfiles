@@ -1,7 +1,0 @@
-set -e
-i=1
-while [[ -f in$i ]]; do
-  echo $i
-  ./run $i
-  ((++i))
-done
