@@ -20,7 +20,7 @@
   "cph-ng.compilation.useHook": true,
   "cph-ng.runner.unlimitedStack": true,
   "cph-ng.problem.templateFile": "${home}/template.cpp",
-  "cph-ng.companion.customPathScript": "${home}/.local/bin/filePathGenerator.js",
+  "cph-ng.companion.customPathScript": "${home}/.local/bin/filePath.js",
   // 扩展与安全设置
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,

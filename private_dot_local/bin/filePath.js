@@ -63,6 +63,21 @@ const getRelativePath = (problem) => {
     problemId = path.basename(problemId)
   }
 
+  if (isHost('luogu.com.cn')) {
+    const ojByPrefix = new Map([
+      ['AT_', 'AtCoder'],
+      ['CF', 'Codeforces'],
+    ])
+
+    for (const [prefix, oj] of ojByPrefix) {
+      if (problemId.startsWith(prefix)) {
+        ojName = oj
+        problemId = problemId.slice(prefix.length)
+        break
+      }
+    }
+  }
+
   problemId = utils.sanitize(problemId)
 
   const fileName = 'sol.cpp'
