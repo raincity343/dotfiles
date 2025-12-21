@@ -1,0 +1,11 @@
+[
+  {
+    "keys": [
+      "ctrl+shift+c"
+    ],
+    "command": "exec",
+    "args": {
+      "shell_cmd": "gnome-terminal"
+    }
+  }
+]
