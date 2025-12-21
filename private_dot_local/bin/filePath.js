@@ -46,6 +46,7 @@ const getRelativePath = (problem) => {
       /\/problemset\/problem\/(\d+)\/(\w+)/,
       /\/gym\/(\d+)\/problem\/(\w+)/,
     ]
+
     for (const regex of regexPatterns) {
       const match = url.pathname.match(regex)
       if (match) {
