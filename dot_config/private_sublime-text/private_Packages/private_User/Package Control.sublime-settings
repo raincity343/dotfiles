@@ -1,0 +1,13 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"LSP",
+		"LSP-clangd",
+		"Package Control",
+		"Terminus",
+	],
+	"in_process_packages":
+	[
+	],
+}

@@ -1,0 +1,10 @@
+{
+    "chat.disableAIFeatures": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'Liberation Mono'",
+    "security.workspace.trust.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.stickyScroll.enabled": false
+}

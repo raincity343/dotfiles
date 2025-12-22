@@ -3,9 +3,9 @@
     "keys": [
       "ctrl+shift+c"
     ],
-    "command": "exec",
+    "command": "toggle_terminus_panel",
     "args": {
-      "shell_cmd": "gnome-terminal"
+      "cwd": "${file_path}"
     }
   }
 ]

@@ -1,0 +1,13 @@
+alias gdb="gdb -q"
+co() { g++ -std=c++14 -O2 -Wall -Wfatal-errors -static -o $1 $1.cpp; }
+run() { co $1 && ./$@; }
+
+submit() {
+    local name=$(basename $PWD)
+    mkdir -p ~/CJ-ckx/$name
+    cp sol.cpp ~/CJ-ckx/$name.cpp
+    cp sol.cpp ~/CJ-ckx/$name/$name.cpp
+}
+
+export PATH="$PATH:~/apps"
+alias cz="chezmoi"
