@@ -1,4 +1,4 @@
-run() { make $1 && ./$@; }
+run() { make -s $1 && ./$@; }
 alias gdb="gdb -q"
 
 submit() {
