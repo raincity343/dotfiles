@@ -2,9 +2,12 @@
     "chat.disableAIFeatures": true,
     "workbench.colorTheme": "Default Light Modern",
     "files.autoSave": "onFocusChange",
-    "editor.fontFamily": "'Liberation Mono'",
+    "editor.fontFamily": "'Fira Code', 'Liberation Mono'",
+    "editor.fontLigatures": "'ss08', 'ss09'",
+    "window.dialogStyle": "custom",
     "security.workspace.trust.enabled": false,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.stickyScroll.enabled": false
+    "terminal.integrated.stickyScroll.enabled": false,
+    "redhat.telemetry.enabled": true
 }
