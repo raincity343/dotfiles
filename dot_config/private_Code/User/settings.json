@@ -8,6 +8,5 @@
     "security.workspace.trust.enabled": false,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.stickyScroll.enabled": false,
-    "redhat.telemetry.enabled": true
+    "terminal.integrated.stickyScroll.enabled": false
 }
