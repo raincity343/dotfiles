@@ -7,11 +7,11 @@ while [[ -f in$i ]]; do
     echo $i
     ./sol < in$i > out$i
     diff -Zq out$i ans$i
-    ((i++))
+    ((++i))
 done
 make gen
 make good
-for ((i = 1;; i++)); do
+for ((i = 1;; ++i)); do
     echo $i
     ./gen > in
     ./sol < in > out
