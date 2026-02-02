@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 trap "notify-send WA" ERR
-i=1
 make sol
+i=1
 while [[ -f in$i ]]; do
     echo $i
     ./sol < in$i > out$i
