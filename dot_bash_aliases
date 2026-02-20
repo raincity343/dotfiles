@@ -1,10 +1,5 @@
 run() { make -s $1 && ./$@; }
 alias gdb="gdb -q"
 
-submit() {
-    local d=~/CJ-ckx n=$(basename $PWD)
-    mkdir -p $d/$n && cp sol.cpp $d/$n.cpp && cp sol.cpp $d/$n/$n.cpp
-}
-
 export PATH="$PATH:~/apps"
 alias cz="chezmoi"
