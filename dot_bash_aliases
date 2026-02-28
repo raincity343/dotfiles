@@ -1,5 +1,5 @@
 run() { make -s $1 && ./$@; }
-alias gdb="gdb -q"
+debug() { make -s $1 && gdb -q $1; }
 
 export PATH="$PATH:~/apps"
 alias cz="chezmoi"
