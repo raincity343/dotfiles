@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 trap "notify-send WA" ERR
+
 make sol
 i=1
 while [[ -f in$i ]]; do
@@ -9,6 +10,7 @@ while [[ -f in$i ]]; do
     diff -Zq out$i ans$i
     ((++i))
 done
+
 make gen
 make good
 for ((i = 1;; ++i)); do
